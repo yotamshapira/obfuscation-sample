@@ -1,0 +1,51 @@
+{
+  "files": [
+    "build.ts",
+    "./dest/javascript-obfuscator/src/JavaScriptObfuscatorFacade.ts",
+    "./dest/javascript-obfuscator/src/JavaScriptObfuscator.ts",
+    "./dest/javascript-obfuscator/src/ASTParserFacade.ts"
+  ],
+  "include": [
+    "./dest/javascript-obfuscator/src/container/**/*",
+    "./dest/javascript-obfuscator/src/declarations/**/*",
+    "./dest/javascript-obfuscator/src/node-transformers/**/*",
+    "./dest/javascript-obfuscator/src/custom-code-helpers/**/*",
+    "./dest/javascript-obfuscator/src/constants/**/*",
+    "./dest/javascript-obfuscator/src/source-code/**/*",
+    "./dest/javascript-obfuscator/src/templates/**/*",
+    "./dest/javascript-obfuscator/src/options/**/*",
+    "./dest/javascript-obfuscator/src/decorators/**/*",
+    "./dest/javascript-obfuscator/src/custom-nodes/**/*",
+    "./dest/javascript-obfuscator/src/node/**/*",
+    "./dest/javascript-obfuscator/src/analyzers/**/*",
+    "./dest/javascript-obfuscator/src/enums/**/*",
+    "./dest/javascript-obfuscator/src/generators/**/*",
+    "./dest/javascript-obfuscator/src/event-emitters/**/*",
+    "./dest/javascript-obfuscator/src/storages/**/*",
+    "./dest/javascript-obfuscator/src/interfaces/**/*",
+    "./dest/javascript-obfuscator/src/logger/**/*",
+    "./dest/javascript-obfuscator/src/types/**/*",
+    "./dest/javascript-obfuscator/src/utils/**/*"
+  ],
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es2017", "dom"],
+    "typeRoots": ["node_modules/@types"],
+    "types": ["node"],
+    "target": "es2017",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noImplicitThis": false,
+    "noUnusedLocals": true,
+    "removeComments": true,
+    "strict": false,
+    "inlineSources": false,
+    "strictNullChecks": false,
+    "sourceMap": true
+  },
+  "exclude": ["node_modules"],
+  "compileOnSave": true,
+  "buildOnSave": true
+}

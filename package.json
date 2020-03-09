@@ -1,0 +1,29 @@
+{
+  "name": "obfuscation-sample",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf out dest && mkdir dest && cp -r node_modules/javascript-obfuscator dest && tsc && node -r source-map-support/register build"
+  },
+  "devDependencies": {
+    "@types/escodegen": "0.0.6",
+    "@types/eslint-scope": "^3.7.0",
+    "@types/estree": "0.0.42",
+    "@types/node": "^13.9.0",
+    "javascript-obfuscator": "0.25.4",
+    "reflect-metadata": "^0.1.13",
+    "source-map-support": "^0.5.16",
+    "typescript": "3.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yotamshapira/obfuscation-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yotamshapira/obfuscation-sample/issues"
+  },
+  "homepage": "https://github.com/yotamshapira/obfuscation-sample#readme"
+}
